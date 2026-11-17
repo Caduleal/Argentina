@@ -2,7 +2,7 @@ const fs = require('fs');
 const vm = require('vm');
 const assert = require('node:assert/strict');
 const html = fs.readFileSync('dist/index.html', 'utf8');
-const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const script = html.match(/<script id="app">([\s\S]*?)<\/script>/)[1];
 new vm.Script(script);
 function app(seed = {}, failSave = false) {
   const nodes = new Map();
@@ -53,5 +53,13 @@ migrated.node('#legacy-rate').value='0.003';migrated.node('#migrate-legacy').onc
 assert.ok(migrated.storage['mi-viaje-argentina-2026-v1'],'Registro original preservado');
 const blocked=app({},true);blocked.node('#limit').value='100';blocked.submit('#budget-form');assert.match(blocked.node('#budget-status').textContent,/Não foi possível salvar/);
 assert.equal(a.run('convert(0.29,"BRL",1)'),29);
-assert.ok(!html.includes('O próximo capítulo'));assert.ok(html.includes('Minha Viagem'));assert.ok(html.includes('Cadu e Vítor'));
-console.log('OK: oito dias, conversão ARS/BRL, histórico de taxas, validação, persistência, migração e falha de armazenamento.');
+assert.ok(!html.includes('O próximo capítulo'));assert.ok(html.includes('Buenos Aires'));assert.ok(html.includes('Cadu e Vitor'));
+assert.ok(!html.includes('id="place-count"'));assert.ok(!html.includes('id="planned-count"'));assert.ok(!html.includes('Uma viagem que vai tomando forma.'));
+assert.equal(a.run('routeUrl([])'),null);
+assert.match(a.run('routeUrl([{lat:-34.60,lon:-58.38},{lat:-34.61,lon:-58.39}])'),/travelmode=driving/);
+assert.equal(a.run('validPlace({id:"a",name:"Teste",lat:-34.6,lon:-58.4})'),true);
+assert.equal(a.run('validPlace({id:"a",name:"Teste",lat:95,lon:-58.4})'),false);
+a.run('weatherLoading=false;weatherData={daily:{time:["2026-11-22"],weather_code:[0],temperature_2m_min:[18],temperature_2m_max:[27],precipitation_probability_max:[10],wind_speed_10m_max:[16]}};renderWeather()');
+assert.match(a.node('#weather-content').children[1].textContent,/Máx 27°/);
+a.run('selectedDay=23;weatherError=false;renderWeather()');assert.match(a.node('#weather-content').children[0].textContent,/23 de novembro/);
+console.log('OK: oito dias, orçamento, persistência, migração, coordenadas, link de percurso e previsão pela data selecionada.');
