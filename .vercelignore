@@ -1,0 +1,9 @@
+.git/
+.openai/
+.codex/
+.vercel/
+node_modules/
+outputs/
+coverage/
+.env*
+*.log

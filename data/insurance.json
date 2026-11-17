@@ -1,0 +1,22 @@
+[
+  {
+    "id": "seguro-vitor",
+    "label": "Vítor",
+    "provider": "Assist Card",
+    "plan": "INTER TOP 60K",
+    "cardNumber": "550 32801677 0C72",
+    "validFrom": "2026-11-22",
+    "validTo": "2026-11-29",
+    "file": "vitor-seguro.pdf"
+  },
+  {
+    "id": "seguro-cadu",
+    "label": "Cadu",
+    "provider": "Assist Card",
+    "plan": "INTER TOP 60K",
+    "cardNumber": "550 32802546 0C72",
+    "validFrom": "2026-11-22",
+    "validTo": "2026-11-29",
+    "file": "carlos-seguro.pdf"
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "day": 22,
+    "title": "Chegada, Obelisco e compras da semana",
+    "summary": "Primeiro dia com programação leve e flexível por causa da chuva. Chegada prevista a Aeroparque às 09h20. Check-in no Airbnb a partir das 15h. Os horários dos passeios ficam em aberto.",
+    "places": [
+      {
+        "id": "dia22-obelisco",
+        "name": "Obelisco",
+        "lat": -34.60361,
+        "lon": -58.38167,
+        "time": "",
+        "price": "",
+        "transport": "A definir conforme o tempo e a chegada ao Airbnb.",
+        "note": "Av. 9 de Julio e Av. Corrientes. Visita breve e fotos, ajustando a duração à chuva.",
+        "source": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/obelisco"
+      }
+    ],
+    "activities": [
+      {
+        "id": "dia22-mercado",
+        "name": "Compras de mercado para a semana",
+        "note": "Comprar os mantimentos da semana. O mercado e o valor das compras ainda serão definidos.",
+        "tag": "Mercado a definir"
+      },
+      {
+        "id": "dia22-livre",
+        "name": "Restante do dia livre",
+        "note": "Sem outros passeios programados.",
+        "tag": "Livre"
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/obelisco-atardecer-1500x610-2026-cm.jpg",
+        "alt": "Obelisco de Buenos Aires · passeio do dia 22"
+      }
+    ]
+  },
+  {
+    "day": 23,
+    "title": "Segunda-feira de cultura e passeios",
+    "summary": "Teatro Colón, Galerías Pacífico, Plaza San Martín e El Ateneo Grand Splendid. Sequência indicada por vocês; horários, ingressos e deslocamentos serão detalhados depois.",
+    "places": [
+      {
+        "id": "dia23-colon",
+        "name": "Teatro Colón",
+        "lat": -34.601083,
+        "lon": -58.383083,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Tipo de visita e eventual reserva a confirmar.",
+        "source": "https://en.wikipedia.org/wiki/Teatro_Col%C3%B3n"
+      },
+      {
+        "id": "dia23-pacifico",
+        "name": "Galerías Pacífico",
+        "lat": -34.59917,
+        "lon": -58.37472,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Passeio escolhido para segunda-feira.",
+        "source": "https://en.wikipedia.org/wiki/Galer%C3%ADas_Pac%C3%ADfico"
+      },
+      {
+        "id": "dia23-san-martin",
+        "name": "Plaza San Martín",
+        "lat": -34.595,
+        "lon": -58.37556,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Passeio escolhido para segunda-feira.",
+        "source": "https://en.wikipedia.org/wiki/Plaza_San_Mart%C3%ADn_(Buenos_Aires)"
+      },
+      {
+        "id": "dia23-ateneo",
+        "name": "El Ateneo Grand Splendid",
+        "lat": -34.59611,
+        "lon": -58.39417,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Visita à livraria.",
+        "source": "https://en.wikipedia.org/wiki/El_Ateneo_Grand_Splendid"
+      }
+    ],
+    "activities": [],
+    "photos": [
+      {
+        "placeId": "dia23-colon",
+        "placeName": "Teatro Colón",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/colon-pano-atrardecer1500x610.jpg",
+        "alt": "Teatro Colón · passeio do dia 23"
+      },
+      {
+        "placeId": "dia23-pacifico",
+        "placeName": "Galerías Pacífico",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/field/image/galerias_pacifico1200.jpg",
+        "alt": "Galerías Pacífico · passeio do dia 23"
+      },
+      {
+        "placeId": "dia23-san-martin",
+        "placeName": "Plaza San Martín",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/plaza-san-martin-torre-monumental1500x610.jpg",
+        "alt": "Plaza San Martín · passeio do dia 23"
+      },
+      {
+        "placeId": "dia23-ateneo",
+        "placeName": "El Ateneo Grand Splendid",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/ateneo_grand_splendid_1500x610.jpg",
+        "alt": "El Ateneo Grand Splendid · passeio do dia 23"
+      }
+    ]
+  },
+  {
+    "day": 24,
+    "title": "Terça-feira pelo centro histórico",
+    "summary": "Centro histórico, Palácio Barolo, Casa Rosada, San Telmo e Puerto Madero. Horários, preços e eventuais reservas ainda serão definidos.",
+    "places": [
+      {
+        "id": "dia24-centro",
+        "name": "Centro histórico",
+        "lat": -34.60833,
+        "lon": -58.37194,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Referência da região: Plaza de Mayo. Trecho específico do passeio a definir.",
+        "source": "https://en.wikipedia.org/wiki/Plaza_de_Mayo"
+      },
+      {
+        "id": "dia24-barolo",
+        "name": "Palácio Barolo",
+        "lat": -34.609556,
+        "lon": -58.385861,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Tipo de visita e eventual reserva a confirmar.",
+        "source": "https://en.wikipedia.org/wiki/Palacio_Barolo"
+      },
+      {
+        "id": "dia24-casa-rosada",
+        "name": "Casa Rosada",
+        "lat": -34.60806,
+        "lon": -58.37028,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Visita escolhida para o dia 3; detalhes a confirmar.",
+        "source": "https://en.wikipedia.org/wiki/Casa_Rosada"
+      },
+      {
+        "id": "dia24-san-telmo",
+        "name": "San Telmo",
+        "lat": -34.62056,
+        "lon": -58.37167,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Passeio pelo bairro. O marcador é uma referência da região; os locais específicos ainda serão escolhidos.",
+        "source": "https://en.wikipedia.org/wiki/San_Telmo,_Buenos_Aires"
+      },
+      {
+        "id": "dia24-puerto-madero",
+        "name": "Puerto Madero",
+        "lat": -34.61194,
+        "lon": -58.36472,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Passeio pelo bairro. O marcador é uma referência da região; os locais específicos ainda serão escolhidos.",
+        "source": "https://en.wikipedia.org/wiki/Puerto_Madero"
+      }
+    ],
+    "activities": [],
+    "photos": [
+      {
+        "placeId": "dia24-centro",
+        "placeName": "Centro histórico",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/plaza-mayo-sol-1500x610-24.jpg",
+        "alt": "Centro histórico · passeio do dia 24"
+      },
+      {
+        "placeId": "dia24-barolo",
+        "placeName": "Palácio Barolo",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/n_barolo1200_0.jpg",
+        "alt": "Palácio Barolo · passeio do dia 24"
+      },
+      {
+        "placeId": "dia24-casa-rosada",
+        "placeName": "Casa Rosada",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/casa-rosada-sol-1500x610-24.jpg",
+        "alt": "Casa Rosada · passeio do dia 24"
+      },
+      {
+        "placeId": "dia24-san-telmo",
+        "placeName": "San Telmo",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/san_telmo_general_calle_1200.jpg",
+        "alt": "San Telmo · passeio do dia 24"
+      },
+      {
+        "placeId": "dia24-puerto-madero",
+        "placeName": "Puerto Madero",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/panoramica-puerto-madero-1500x610.jpg",
+        "alt": "Puerto Madero · passeio do dia 24"
+      }
+    ]
+  },
+  {
+    "day": 25,
+    "title": "Quarta-feira em La Boca",
+    "summary": "La Boca, La Bombonera e Caminito. Tipo de visita ao estádio, horários, ingressos e deslocamentos a confirmar.",
+    "places": [
+      {
+        "id": "dia25-la-boca",
+        "name": "La Boca",
+        "lat": -34.63556,
+        "lon": -58.36472,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Marcador de referência do bairro, próximo de La Bombonera. As paradas escolhidas são La Bombonera e Caminito.",
+        "source": "https://en.wikipedia.org/wiki/La_Boca",
+        "markerOffset": true
+      },
+      {
+        "id": "dia25-bombonera",
+        "name": "La Bombonera",
+        "lat": -34.63565,
+        "lon": -58.36465,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Visita escolhida para o dia 4. Formato da visita e eventual reserva a confirmar.",
+        "source": "https://en.wikipedia.org/wiki/La_Bombonera"
+      },
+      {
+        "id": "dia25-caminito",
+        "name": "Caminito",
+        "lat": -34.6393,
+        "lon": -58.3628,
+        "time": "",
+        "price": "",
+        "transport": "A definir.",
+        "note": "Passeio por Caminito, em La Boca.",
+        "source": "https://en.wikipedia.org/wiki/Caminito"
+      }
+    ],
+    "activities": [],
+    "photos": [
+      {
+        "placeId": "dia25-la-boca",
+        "placeName": "La Boca",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/boca_conventillos705_4.jpg",
+        "alt": "La Boca · passeio do dia 25"
+      },
+      {
+        "placeId": "dia25-bombonera",
+        "placeName": "La Bombonera",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/bombonera_1200_4.jpg",
+        "alt": "La Bombonera · passeio do dia 25"
+      },
+      {
+        "placeId": "dia25-caminito",
+        "placeName": "Caminito",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/caminito-dia-gente-25-1500x610.jpg",
+        "alt": "Caminito · passeio do dia 25"
+      }
+    ]
+  },
+  {
+    "day": 26,
+    "title": "Bate-volta a Colonia del Sacramento",
+    "summary": "Quinta-feira no Uruguai, com retorno a Buenos Aires no mesmo dia. Transporte de ida e volta, horários e valores ainda serão definidos.",
+    "weatherLocation": {
+      "name": "Colonia del Sacramento",
+      "lat": -34.47139,
+      "lon": -57.84417,
+      "timezone": "America/Montevideo"
+    },
+    "places": [
+      {
+        "id": "dia26-colonia",
+        "name": "Colonia del Sacramento · Uruguai",
+        "lat": -34.47139,
+        "lon": -57.84417,
+        "time": "",
+        "price": "",
+        "transport": "Transporte de ida e volta a confirmar.",
+        "note": "Bate-volta. O marcador é uma referência da cidade; os pontos específicos do passeio ainda serão escolhidos.",
+        "source": "https://en.wikipedia.org/wiki/Colonia_del_Sacramento"
+      }
+    ],
+    "activities": [
+      {
+        "id": "dia26-retorno",
+        "name": "Retorno a Buenos Aires",
+        "note": "Voltar no mesmo dia. Horário de retorno a confirmar.",
+        "tag": "Retorno no mesmo dia"
+      }
+    ],
+    "photos": []
+  },
+  {
+    "day": 27,
+    "title": "Sexta-feira em Palermo e Floralis",
+    "summary": "Jardín Botánico, Jardín Japonés, Planetário e Rosedal, com a Floralis Genérica em Recoleta no fim da tarde, antes do retorno ao Airbnb. Horários sugeridos, com intervalo para almoço entre o Jardim Japonês e o Planetário. Deslocamentos a pé são estimativas e podem ser trocados por carro conforme o clima e a disposição.",
+    "places": [
+      {
+        "id": "dia27-botanico",
+        "name": "Jardín Botánico Carlos Thays",
+        "lat": -34.58247,
+        "lon": -58.418598,
+        "time": "09:30",
+        "price": "Entrada gratuita (consulta em 17/11/2026).",
+        "transport": "Do Airbnb, carro por aplicativo até a entrada na Av. Santa Fe 3951; tarifa e tempo conforme o trânsito.",
+        "note": "Horário sugerido. Reserve cerca de 1 hora para os caminhos, esculturas e jardins. A prefeitura informa abertura às sextas de verão das 8h às 19h, com último ingresso às 18h30. Confira avisos de fechamento por mau tempo antes de sair.",
+        "source": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/jard%C3%ADn-bot%C3%A1nico",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Buenos_Aires_Botanical_Garden"
+      },
+      {
+        "id": "dia27-japones",
+        "name": "Jardín Japonés",
+        "lat": -34.575333,
+        "lon": -58.409389,
+        "time": "11:00",
+        "price": "ARS 24.000 por pessoa não residente; ARS 48.000 para os dois (consulta em 17/11/2026, sujeito a alteração).",
+        "transport": "Do Botánico, caminhada estimada de 20–30 minutos até a entrada na Av. Casares 3500, contornando o Ecoparque; carro por aplicativo é alternativa.",
+        "note": "Horário sugerido. Reserve 1h–1h30 para pontes, lago e fotos. O site oficial informa funcionamento diário das 10h às 18h45, bilheteria até 18h30. Depois, pausa para almoço em local a escolher; refeição fora do orçamento dos ingressos.",
+        "source": "https://jardinjapones.org.ar/informacion-general/",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Buenos_Aires_Japanese_Gardens"
+      },
+      {
+        "id": "dia27-planetario",
+        "name": "Planetario Galileo Galilei",
+        "lat": -34.56972,
+        "lon": -58.41167,
+        "time": "14:00",
+        "price": "Passeio externo sem ingresso de sessão; visita interna e sessões têm valores a consultar.",
+        "transport": "Do Jardín Japonés, caminhada estimada de 15–20 minutos em direção à Av. Sarmiento e Belisario Roldán, descontando a pausa para almoço.",
+        "note": "Horário sugerido para conhecer a arquitetura por fora e fotografar o entorno. Uma sessão interna é opcional e depende da agenda oficial de 27/11, ingressos e disponibilidade; não há sessão reservada.",
+        "source": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/planetario-galileo-galilei",
+        "coordinateSource": "https://en.wikipedia.org/wiki/Galileo_Galilei_Planetarium"
+      },
+      {
+        "id": "dia27-rosedal",
+        "name": "Rosedal de Palermo",
+        "lat": -34.570633,
+        "lon": -58.417287,
+        "time": "15:00",
+        "price": "Conferir regras de acesso e eventuais atividades na página oficial.",
+        "transport": "Do Planetário, caminhada estimada de 15–20 minutos até um dos acessos ao Rosedal. Depois, seguir para a Floralis Genérica em Recoleta.",
+        "note": "Horário sugerido. Passeie entre os roseirais, pontes e lagos do Parque Tres de Febrero. Reserve cerca de 1h–1h30. O marcador indica a área do jardim; use os acessos sinalizados e confirme o horário de fechamento no dia.",
+        "source": "https://turismo.buenosaires.gob.ar/es/otros-establecimientos/rosedal-de-palermo-0",
+        "coordinateSource": "https://es.wikipedia.org/wiki/Rosedal_de_Palermo"
+      },
+      {
+        "id": "dia27-floralis",
+        "name": "Floralis Genérica",
+        "lat": -34.58167,
+        "lon": -58.39389,
+        "time": "17:00",
+        "price": "",
+        "transport": "Do Rosedal, seguir por carro por aplicativo até a Plaza de las Naciones Unidas, em Recoleta. Tarifa e duração conforme o trânsito; depois, retorno ao Airbnb.",
+        "note": "Horário sugerido, com margem para o deslocamento. Parada para conhecer e fotografar a Floralis Genérica, transferida da segunda-feira. A escultura fica em Recoleta; confirme o acesso à praça no dia.",
+        "source": "https://en.wikipedia.org/wiki/Floralis_Gen%C3%A9rica"
+      }
+    ],
+    "activities": [],
+    "photos": [
+      {
+        "placeId": "dia27-botanico",
+        "placeName": "Jardín Botánico Carlos Thays",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/botanico_jardin-1500x610-fuente.jpg",
+        "alt": "Jardín Botánico Carlos Thays · passeio do dia 27"
+      },
+      {
+        "placeId": "dia27-japones",
+        "placeName": "Jardín Japonés",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/jardin-japones-gente-puenterojo-1500x610.jpg",
+        "alt": "Jardín Japonés · passeio do dia 27"
+      },
+      {
+        "placeId": "dia27-planetario",
+        "placeName": "Planetario Galileo Galilei",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/planetario_soleado_1200_1.jpg",
+        "alt": "Planetario Galileo Galilei · passeio do dia 27"
+      },
+      {
+        "placeId": "dia27-rosedal",
+        "placeName": "Rosedal de Palermo",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/rosedal-de-palermo-rosas-1500x610.jpg",
+        "alt": "Rosedal de Palermo · passeio do dia 27"
+      },
+      {
+        "placeId": "dia27-floralis",
+        "placeName": "Floralis Genérica",
+        "url": "https://turismo.buenosaires.gob.ar/sites/turismo/files/field/image/floralis_generica_recoleta_dia_1200_1.jpg",
+        "alt": "Floralis Genérica · passeio do dia 27"
+      }
+    ]
+  }
+]

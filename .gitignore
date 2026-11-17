@@ -1,1 +1,21 @@
+# Dependências e arquivos gerados durante o desenvolvimento
+node_modules/
 outputs/
+coverage/
+.nyc_output/
+*.log
+*.tsbuildinfo
+
+# Credenciais: somente o exemplo sem valores entra no Git
+.env*
+!.env.example
+
+# Configurações locais de ferramentas e hospedagem
+.vercel/
+.openai/
+.codex/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# dist/index.html é o código-fonte deste projeto e deve ser versionado.

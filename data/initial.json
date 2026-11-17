@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "revision": 0,
+  "updatedAt": null,
+  "recentOperations": [],
+  "budget": {
+    "version": 2,
+    "limit": 0,
+    "rate": null,
+    "expenses": [],
+    "legacy": null
+  },
+  "itinerary": [],
+  "info": {
+    "accommodation": "Airbnb\nParaguay 867, Departamento 7, piso 6\nBuenos Aires, Ciudad Autónoma de Buenos Aires C1057\nCheck-in a partir das 15h · check-out às 10h",
+    "transfers": "",
+    "reservations": ""
+  },
+  "flights": [
+    {
+      "id": "outbound",
+      "label": "Ida · 22 de novembro",
+      "airline": "GOL",
+      "number": "7226",
+      "date": "2026-11-22",
+      "from": "Rio de Janeiro · Galeão",
+      "to": "Buenos Aires · Aeroparque",
+      "departure": "06:00",
+      "arrival": "09:20",
+      "checkIn": "03:00",
+      "counter": "GOL · Galeão"
+    },
+    {
+      "id": "return",
+      "label": "Volta · 29 de novembro",
+      "airline": "GOL",
+      "number": "7669",
+      "date": "2026-11-29",
+      "from": "Buenos Aires · Ezeiza",
+      "to": "Rio de Janeiro · Galeão",
+      "departure": "12:45",
+      "arrival": "15:40",
+      "checkIn": null,
+      "counter": null
+    }
+  ],
+  "vouchers": [
+    {
+      "id": "vitor",
+      "label": "Vítor",
+      "passenger": "VITOR FORNY",
+      "file": "vitor-voo.pdf",
+      "baggage": "Inclui bagagem despachada · CLASSIC"
+    },
+    {
+      "id": "cadu",
+      "label": "Cadu",
+      "passenger": "CARLOS SANTOS JUNIOR",
+      "file": "carlos-voo.pdf",
+      "baggage": "Não inclui bagagem despachada · LIGHT"
+    }
+  ]
+}

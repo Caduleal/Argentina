@@ -1,0 +1,12 @@
+[
+  {
+    "id": "airbnb",
+    "name": "Nosso Airbnb",
+    "address": "Paraguay 867, Departamento 7, piso 6 · Buenos Aires, C1057",
+    "lat": -34.59767,
+    "lon": -58.379297,
+    "checkIn": "A partir das 15h",
+    "checkOut": "Até as 10h",
+    "source": "https://servicios.usig.buenosaires.gob.ar/normalizar/?direccion=Paraguay%20867&geocodificar=TRUE"
+  }
+]
