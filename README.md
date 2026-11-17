@@ -4,6 +4,8 @@ Guia mobile para 22 a 29 de novembro de 2026. Front-end leve em HTML, CSS/Tailwi
 
 Repositório: [Caduleal/Argentina](https://github.com/Caduleal/Argentina). A raiz Git é a pasta `argentina-guide`: os arquivos `package.json`, `vercel.json`, `api/` e `dist/` ficam diretamente na raiz do repositório remoto.
 
+Site publicado: **[argentina-coral.vercel.app](https://argentina-coral.vercel.app)**. Projeto Vercel `argentina`, conectado ao GitHub e a um Blob privado na região `gru1` (São Paulo), com token somente em Production. Publicação inicial pela CLI em 17/11/2026. Página, API de dados e os quatro PDFs foram verificados em produção com resposta HTTP 200; os dados foram relidos em uma nova requisição sem reinicialização.
+
 ## Git e primeiro envio
 
 O remote `origin` aponta para `https://github.com/Caduleal/Argentina.git`. Dentro da pasta `argentina-guide`, revise as alterações preparadas e faça o commit e o envio:
@@ -32,7 +34,7 @@ O armazenamento Blob é privado para que o token permaneça no servidor e as lei
 
 ## Publicar na Vercel
 
-O projeto Vercel e o Blob ainda precisam ser criados na sua conta. O código não precisa de um servidor dedicado.
+O projeto e o Blob de produção já estão criados e conectados. O código não precisa de um servidor dedicado. Para novos projetos, siga as instruções abaixo; para atualizar o atual, faça push em `main` ou execute `pnpm dlx vercel deploy --prod` na pasta vinculada.
 
 1. Envie o commit para o GitHub. Na Vercel, use **Add New → Project** e importe `Caduleal/Argentina`.
 2. Deixe **Root Directory** como `.` (raiz do repositório). Não selecione somente `dist`, pois as funções da pasta `api` também são necessárias. Para publicar pela CLI, execute `npx vercel` dentro da pasta local `argentina-guide`.
